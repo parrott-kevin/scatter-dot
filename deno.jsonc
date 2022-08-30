@@ -1,0 +1,12 @@
+{
+	"importMap": "import_map.json",
+	"fmt": {
+		"options": {
+			"useTabs": true,
+			"singleQuote": true
+		}
+	},
+	"tasks": {
+		"link": "deno run --allow-read --allow-write --allow-env ./src/main.ts --config=./example/config.jsonc link"
+	}
+}
