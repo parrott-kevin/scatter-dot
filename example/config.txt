@@ -1,0 +1,6 @@
+{
+	"links": {
+		"test.txt": "~/test.txt",
+		"baz.json": "../bar.json"
+	}
+}
