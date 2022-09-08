@@ -16,7 +16,10 @@ interface Options extends GlobalOptions {
 interface Config {
 	global?: GlobalOptions;
 	link: {
-		[sourcePath: string]: string;
+		[sourcePath: string]: string; // need to inverse this because same source may be used more than once
+	};
+	copy: {
+		[name: string]: string;
 	};
 }
 
